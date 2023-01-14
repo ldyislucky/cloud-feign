@@ -1,5 +1,7 @@
 package cn.itcast.order;
 
+import cn.ldy.feign.clients.UserClients;
+import cn.ldy.feign.feign.DefaultFeignConfiguration;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
 import org.mybatis.spring.annotation.MapperScan;
@@ -15,7 +17,9 @@ import javax.xml.transform.Templates;
 
 //@EnableEurekaServer不需要
 
-@EnableFeignClients //自动装配feign的开关
+@EnableFeignClients //自动装配feign的开关,括号中的作用第添加feign的类
+        (clients = UserClients.class,
+                defaultConfiguration = DefaultFeignConfiguration.class)
 @MapperScan("cn.itcast.order.mapper")
 @SpringBootApplication
 public class OrderApplication {
