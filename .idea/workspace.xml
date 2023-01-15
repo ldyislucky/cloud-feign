@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f332c22a-4368-404f-a9d8-61705e112ca4" name="变更" comment="完成gateway的启动配置">
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/cn/ldy/test/t1.java" afterDir="false" />
+    <list default="true" id="f332c22a-4368-404f-a9d8-61705e112ca4" name="变更" comment="添加一个小测试，以后思考一下double精度丢失问题应当如何处理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/target/classes/cn/ldy/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/target/classes/cn/ldy/gateway/GatewayApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +154,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.t1.t2" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="JUnit.t1.t2" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673750385323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加一个小测试，以后思考一下double精度丢失问题应当如何处理">
+      <created>1673772560308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673772560308</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +431,8 @@
     <MESSAGE value="完成feign的最佳实践" />
     <MESSAGE value="添加gateway包" />
     <MESSAGE value="完成gateway的启动配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成gateway的启动配置" />
+    <MESSAGE value="添加一个小测试，以后思考一下double精度丢失问题应当如何处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一个小测试，以后思考一下double精度丢失问题应当如何处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

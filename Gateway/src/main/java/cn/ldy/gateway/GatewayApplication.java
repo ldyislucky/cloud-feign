@@ -2,7 +2,6 @@ package cn.ldy.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 /**
  * @author : ldy
  * @version : 1.0

@@ -16,4 +16,6 @@ spring:
           uri: lb://orderserver
           predicates:
             - Path=/order/**
+            - Before=2021-04-13T15:14:47.433+08:00[Asia/Shanghai]
+
 
