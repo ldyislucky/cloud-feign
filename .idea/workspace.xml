@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f332c22a-4368-404f-a9d8-61705e112ca4" name="变更" comment="修改一些无用的感叹号导包">
-      <change afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f332c22a-4368-404f-a9d8-61705e112ca4" name="变更" comment="添加gateway包">
+      <change afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.eurekaApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ldy.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ldy.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.order.OrderApplication" />
@@ -122,7 +132,13 @@
       <item itemvalue="Spring Boot.eurekaApplication" />
       <item itemvalue="Spring Boot.UserApplication (1)" />
       <item itemvalue="Spring Boot.UserApplication (2)" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -190,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673685228318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加gateway包">
+      <created>1673743579886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673743579886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +396,8 @@
     <MESSAGE value="上传cloud-feign学习文件" />
     <MESSAGE value="上传cloud-feign实例学习文件" />
     <MESSAGE value="完成feign的最佳实践" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成feign的最佳实践" />
+    <MESSAGE value="添加gateway包" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加gateway包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
