@@ -51,7 +51,9 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public User queryById(@PathVariable("id") Long id) {
+    public User queryById(@PathVariable("id") Long id,
+                          @RequestHeader(value = "Truth",required = false)String best) {
+        System.out.println("Best:"+best);
         return userService.queryById(id);
     }
 }

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f332c22a-4368-404f-a9d8-61705e112ca4" name="变更" comment="添加一个小测试，以后思考一下double精度丢失问题应当如何处理">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/java/cn/ldy/gateway/GatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/target/classes/cn/ldy/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/target/classes/cn/ldy/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +145,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.t1.t2" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.eurekaApplication" />
       <item itemvalue="Spring Boot.UserApplication (1)" />
       <item itemvalue="Spring Boot.UserApplication (2)" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="JUnit.t1.t2" />
     </list>
     <recent_temporary>
       <list>
@@ -196,6 +197,8 @@
       <workItem from="1673685464825" duration="4000" />
       <workItem from="1673685504139" duration="587000" />
       <workItem from="1673706353211" duration="259000" />
+      <workItem from="1674996836929" duration="4641000" />
+      <workItem from="1675338619264" duration="4887000" />
     </task>
     <task id="LOCAL-00001" summary="上传cloud-feign学习文件">
       <created>1673140549130</created>

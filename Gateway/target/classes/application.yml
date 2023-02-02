@@ -12,10 +12,13 @@ spring:
           uri: lb://userserver #负载均衡到服务器，路由的请求地址
           predicates: #路由断言，判断请求是否符合规则
             - Path=/user/** #路径断言，判断路径是否以/user开头，如果是则符合
+          #filters:
+           # - AddRequestHeader=Truth,ldy hooray jvbu！
         - id: orderservice
           uri: lb://orderserver
           predicates:
             - Path=/order/**
-            - Before=2021-04-13T15:14:47.433+08:00[Asia/Shanghai]
-
+            - Before=2031-04-13T15:14:47.433+08:00[Asia/Shanghai]
+      default-filters:
+        - AddRequestHeader=Truth,Itcast is freaking awesome!
 
